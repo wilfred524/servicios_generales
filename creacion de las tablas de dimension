@@ -1,12 +1,12 @@
-create table Servicios(
-id_servicio INT,
+create table Solicitudes(
+id_solicitud INT,
 codigo_servicio INT,
 descripcion_servicio VARCHAR(45),
 codigo_tipo INT,
 descripcion_tipo VARCHAR(45),
 codigo_estado INT,
 descripcion_estado VARCHAR(45),
-constraint PK_Servicios primary key (id_servicio)
+constraint PK_Servicios primary key (id_solicitud)
 );
 
 create table Localidades(
